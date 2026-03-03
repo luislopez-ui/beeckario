@@ -1,0 +1,19 @@
+fastapi>=0.110
+uvicorn>=0.27
+python-dotenv>=1.0
+pydantic-settings>=2.2
+
+langchain>=0.2.14
+langgraph>=0.2.0
+langchain-openai>=0.1.22
+
+# PySide6: use >=6.8 for Python 3.13 wheels
+PySide6>=6.8.0
+httpx>=0.27
+openpyxl>=3.1
+
+# Needed on Windows so Python's zoneinfo can resolve IANA timezones
+# like America/Mexico_City (otherwise times may shift by -6h).
+tzdata>=2024.1
+
+pytest>=8.0
